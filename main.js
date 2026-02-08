@@ -17,7 +17,7 @@ fetch('https://hotelbooking.stepprojects.ge/api/Rooms/GetAll', {
            <p><strong>ფასი:</strong> ${room.pricePerNight} $</p>
            <p><strong>სტუმრების მაქსიმუმი:</strong> ${room.maximumGuests}</p>
            <p><strong>ხელმისაწვდომია?:</strong> ${room.available ? "დიახ" : "არა"}</p>
-           <p><strong>Room ID:</strong> ${room.id}</p>
+           <p><strong>ოთახის ნომერი:</strong> N${room.id}</p>
        `;
 
        roomsContainer.appendChild(card);
